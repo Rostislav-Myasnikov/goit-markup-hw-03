@@ -56,7 +56,7 @@ a,
   cursor: pointer;
 }
 
-header {
+.head-box {
   background-color: #f4f4fd;
   display: flex;
   padding: 0;
@@ -76,10 +76,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1158px;
 }
 
-.container {
+.header-container .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
