@@ -72,17 +72,18 @@ a,
   align-items: center;
 }
 
-.header-container {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.header-container .container {
-  max-width: 1158px;
+.header-container {
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .nav-list {
   display: flex;
   gap: 40px;
