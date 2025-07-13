@@ -44,6 +44,8 @@ body {
   color: #434455;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
+  box-sizing: border-box;
+
   max-height: 100vh;
 }
 
@@ -59,7 +61,7 @@ a,
   background-color: #f4f4fd;
   display: flex;
   padding: 0;
-
+  width: 1158px;
   height: 72px;
   align-items: center;
   padding: 40px 156px;
@@ -78,8 +80,6 @@ a,
 }
 
 .container {
-  width: 100%;
-  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
