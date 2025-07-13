@@ -60,10 +60,20 @@ a,
   height: 72px;
   align-items: center;
   padding: 40px 156px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
 }
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -80,7 +90,7 @@ a,
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 
 .studio-logo {
@@ -119,6 +129,7 @@ li {
 
 .address {
   font-style: normal;
+  display: flex;
 }
 
 .address-list {
