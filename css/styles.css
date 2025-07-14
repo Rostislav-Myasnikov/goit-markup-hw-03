@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+p {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
 ul,
 h1,
 h2,
@@ -205,6 +215,8 @@ li {
   display: block;
   min-width: 169px;
   cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button:hover,
@@ -213,19 +225,30 @@ li {
   background-color: #404bbf;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 .about-us {
   display: flex;
   margin: 127px 156px 120px;
+  padding: 120px 0;
 }
 
 .about-us-title {
   color: #2e2f42;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .about-us-list {
   display: flex;
   justify-content: flex-start;
+  gap: 24px;
 }
 
 .about-us-text {
@@ -233,21 +256,7 @@ li {
 }
 
 .about-us-item {
-  margin-right: 24px;
-}
-
-.about-us-item:last-child {
-  margin-right: 0;
-}
-
-p {
-  color: #434455;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-info {
