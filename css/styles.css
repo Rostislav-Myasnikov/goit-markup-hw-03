@@ -225,14 +225,6 @@ li {
   background-color: #404bbf;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
 .about-us {
   display: flex;
   margin: 127px 156px 120px;
