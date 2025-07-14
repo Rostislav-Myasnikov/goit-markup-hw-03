@@ -348,6 +348,7 @@ footer {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 100px 0; 
 }
 
 .footer-info {
@@ -367,4 +368,9 @@ footer {
 .footer-copy {
   width: 265px;
   height: 112px;
+}
+
+.footer-copy a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
