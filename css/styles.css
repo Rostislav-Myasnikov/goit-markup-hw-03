@@ -330,12 +330,13 @@ li {
   margin-bottom: 8px;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
   height: 312px;
+  width: 100%;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  
   padding-left: 156px;
 }
 
@@ -373,4 +374,5 @@ footer {
 .footer-copy a {
   display: inline-block;
   margin-bottom: 16px;
+  justify-content: flex-start;
 }
