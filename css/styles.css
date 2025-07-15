@@ -71,7 +71,7 @@ a,
 }
 
 .head-box {
-  background-color: #f4f4fd;
+
   display: flex;
   padding: 40px 0;
   width: 1158px;
@@ -225,16 +225,26 @@ li {
   background-color: #404bbf;
 }
 
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+  color: #2e2f42;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
 .about-us {
   display: flex;
   margin: 127px 156px 120px;
   padding: 120px 0;
-}
-
-.about-us-title {
-  color: #2e2f42;
-  text-align: left;
-  margin-bottom: 8px;
 }
 
 .about-us-list {
@@ -299,8 +309,8 @@ li {
 .portfolio {
   text-align: center;
   display: flex;
-  flex-direction: column;
-  padding-bottom: 120px 0 120px 0;
+ 
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-title {
@@ -314,6 +324,7 @@ li {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin: 0 156px;
 }
 
 .portfolio-item {
@@ -333,11 +344,10 @@ li {
 .footer {
   background-color: #2e2f42;
   height: 312px;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
-  
-  padding-left: 156px;
+  padding: 100px 0;
+  width: 100%;
 }
 
 .logo-footer {
@@ -349,7 +359,7 @@ li {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 100px 0; 
+  justify-content: flex-start;
 }
 
 .footer-info {
@@ -360,19 +370,22 @@ li {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  flex-wrap: wrap;
+  width: 264px;
 }
 
 .studio-footer {
   color: #f4f4fd;
 }
 
-.footer-copy {
-  width: 265px;
-  height: 112px;
-}
-
 .footer-copy a {
   display: inline-block;
   margin-bottom: 16px;
   justify-content: flex-start;
+}
+
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  margin-left: 156px;
 }
