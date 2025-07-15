@@ -358,7 +358,11 @@ li {
 }
 
 .logo-footer {
-   display: inline-block;
+  display: inline-block;
+}
+
+.footer-copy a {
+  display: inline-block;
 }
 
 .footer-info {
