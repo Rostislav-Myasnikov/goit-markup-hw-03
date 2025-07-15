@@ -358,7 +358,7 @@ li {
 }
 
 .logo-footer {
-  
+   display: inline-block;
 }
 
 .footer-info {
