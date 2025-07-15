@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-p {
-  color: #434455;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
 ul,
 h1,
 h2,
@@ -28,56 +18,21 @@ p {
 
 img {
   display: block;
-}
-
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: medium;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
+  border: none;
 }
 
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  box-sizing: border-box;
-  width: 1440px;
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
 }
 
-main {
-  flex-grow: 1;
-}
-a,
-.button {
+button {
   cursor: pointer;
 }
 
 .head-box {
-
-  display: flex;
-  padding: 40px 0;
-  width: 1158px;
-  height: 72px;
-  align-items: center;
-
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -86,16 +41,16 @@ a,
   align-items: center;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
 .header-container {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 .nav-list {
@@ -110,7 +65,7 @@ a,
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
@@ -120,14 +75,14 @@ a,
   color: #2e2f42;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 li {
   list-style-type: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .list-item {
@@ -135,9 +90,10 @@ li {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .list-item:hover,
@@ -166,7 +122,7 @@ li {
   color: #434455;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: "Roboto", sans-serif;
 }
@@ -180,23 +136,19 @@ li {
 
 .main-screen {
   background-color: #2e2f42;
-  text-align: center;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 48px;
+  
   padding: 188px 0;
 }
 
 .title {
   color: #ffffff;
-  font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -205,7 +157,7 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.50;
   letter-spacing: 0.04em;
   height: 56px;
   min-width: 169px;
@@ -249,8 +201,6 @@ li {
 }
 
 .about-us {
-  display: flex;
-  margin: 127px 156px 120px;
   padding: 120px 0;
 }
 
@@ -285,7 +235,6 @@ li {
 }
 
 .team-item {
-  background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
@@ -295,6 +244,7 @@ li {
 
 .team-card-info {
   padding: 32px 0;
+  background-color: #ffffff;
 }
 
 .name {
@@ -311,12 +261,14 @@ li {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center
 }
 
 .portfolio {
-  text-align: center;
-  display: flex;
- 
+
   padding: 120px 0 120px 0;
 }
 
@@ -324,6 +276,10 @@ li {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
 }
 
 .portfolio-list {
@@ -331,7 +287,6 @@ li {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin: 0 156px;
 }
 
 .portfolio-item {
@@ -350,11 +305,7 @@ li {
 
 .footer {
   background-color: #2e2f42;
-  height: 312px;
-  display: flex;
-  justify-content: flex-start;
   padding: 100px 0;
-  width: 100%;
 }
 
 .logo-footer {
@@ -371,7 +322,7 @@ li {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   flex-wrap: wrap;
   width: 264px;
@@ -382,16 +333,11 @@ li {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   justify-content: flex-start;
   color: #f4f4fd;
-}
-
-.footer-copy {
-
-  margin-left: 156px;
 }
 
 .footer-copy a {
