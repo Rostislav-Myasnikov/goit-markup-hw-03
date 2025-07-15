@@ -389,16 +389,14 @@ li {
   color: #f4f4fd;
 }
 
-.footer-copy a {
-  display: inline-block;
-}
-.footer-copy a {
-  margin-bottom: 16px;
-  justify-content: flex-start;
-}
-
 .footer-copy {
   display: flex;
   flex-direction: column;
   margin-left: 156px;
+}
+
+.footer-copy a {
+  display: inline-block;
+   margin-bottom: 16px;
+  justify-content: flex-start;
 }
