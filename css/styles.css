@@ -193,6 +193,10 @@ li {
 
 .about-us-title {
   color: #2e2f42;
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
   text-align: left;
   margin-bottom: 8px;
 }
@@ -209,6 +213,10 @@ li {
 
 .about-us-text {
   text-align: left;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .about-us-item {
